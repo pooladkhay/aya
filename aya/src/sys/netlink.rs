@@ -277,7 +277,7 @@ struct Request {
 struct TcRequest {
     header: nlmsghdr,
     tc_info: tcmsg,
-    attrs: [u8; 64],
+    attrs: [u8; 292],
 }
 
 struct NetlinkSocket {
